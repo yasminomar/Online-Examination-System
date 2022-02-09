@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.css">
+	<link rel="stylesheet" href="exam.css">
+	<title>Exam</title>
+	<script src="https://kit.fontawesome.com/8a0c3145f8.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+	<div id="container">
+		<div id="exam-left">
+			<div id="exam-header">
+				<p class="head">Exam Panel</p>
+			</div>
+			<div id="numOfQuestion">
+				<p>Question <span id="qnum">1</span>of 9</p>
+				<i id="flag" class="fas fa-flag"></i>
+				<p id="secondP">1 Mark</p>
+			</div>
+			<div id="question">
+				<div id="question-body">
+					<p class="q">(Q) </p>
+					<div id="qbody"></div>
+				</div>
+				<div id="answers">
+					<div class="insertedAnswersContaner"><input type="radio" name="answer" id="fradio" class="radio"><p class="q">(A) </p><p id="frist" class="insertedAnswers"></p></div>
+					<div class="insertedAnswersContaner"><input type="radio" name="answer" id="sradio" class="radio"><p class="q">(B) </p><p id="second" class="insertedAnswers"></p></div>
+					<div class="insertedAnswersContaner"><input type="radio" name="answer" id="thradio" class="radio"><p class="q">(C) </p><p id="therd" class="insertedAnswers"></p></div>
+					<div class="insertedAnswersContaner"><input type="radio" name="answer" id="foradio" class="radio"><p class="q">(D) </p><p id="fourth" class="insertedAnswers"></p></div>
+				</div>
+
+			</div>
+			<div id="buttons">
+				<button type="submit" id="Previous" class="button"><i class="fas fa-angle-left"></i> Previous Question</button>
+				<button type="submit" id="Next" class="button">Next Question <i class="fas fa-angle-right"></i></button>
+			</div>
+
+		</div>
+		<div id="exam-right">
+			<div id="time-indecator">
+				<div id="time-header">
+					<p class="head">Time Remaining</p>
+				</div>
+				<div id="time-container">
+					<i id="clock" class="far fa-clock"></i>
+					<h1 id="time">20:00</h1>
+				</div>
+
+			</div>
+			<div id="mark">
+
+			</div>
+			<div id="submit">
+				<button type="submit" id="start">Start</button>
+			</div>
+
+
+		</div>
+
+	</div>
+	<script src="exam.js"></script>
+</body>
+</html>
