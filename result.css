@@ -12,8 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color:#FFFFFF;
-    font-family: 'Nunito', sans-serif;
-    
+    font-family: 'Nunito', sans-serif;  
 }
 #container{
     overflow: hidden;
@@ -26,22 +25,17 @@ body{
 }
 #image{
     height: 600px;
-    width: 600px;
-    background-image: url('result.png');
-    background-repeat: no-repeat;
+    width: 500px;
+    background-image: url('image_processing20200307-29391-1fylm1x.gif');
+    /* background-repeat: no-repeat; */
     /* background-size: cover; */
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-size: 100% 100%;
-
-
-
-
-
 }
 
 table {
     height: 600px;
-    width: 500px;
+    width: 600px;
     font-size: 30px;
     
     
@@ -51,16 +45,16 @@ table {
 
 
     border-collapse: collapse;
-  }
+}
 td {
     border: 1px solid #000000;
-    padding: 8px;
-  }
+    padding: 20px;
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background: #efefef;
-  }
+}
   
-  tr:hover {
+tr:hover {
     background: #d1d1d1;
-  }
+}
